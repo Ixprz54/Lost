@@ -1,64 +1,10 @@
 {
-  "name": "Lost Horizon Modpack 1.21.4",
-  "version": "1.0",
   "files": [
-    // ----------------------------------------------------------------------------------
-    // 0. FICHIER FORGE OBLIGATOIRE (pour installer le loader 1.21.4 - 54.1.0)
-    // IMPORTANT : Vous devez télécharger l'INSTALLATEUR CLIENT de Forge et le nommer comme ci-dessous.
-    // ----------------------------------------------------------------------------------
     {
       "name": "files/forge-1.21.4-54.1.0-installer.jar",
       "size": 6413997,
       "sha1": "12CA4988E1C4F3966547A6B1B63850B1293564AE",
       "action": 0
-    },
-    
-    // ----------------------------------------------------------------------------------
-    // 1. FICHIER SERVERS.DAT (Ajout automatique du serveur dans la liste du joueur)
-    // ACTION 0 : Télécharger (Download)
-    // ----------------------------------------------------------------------------------
-    {
-      "name": "files/servers.dat",
-      "size": TAILLE_SERVERS_DAT_EN_OCTETS, 
-      "sha1": "SHA1_DU_SERVERS.DAT", 
-      "action": 0,
-      "path": "" // Laisse le servers.dat à la racine du dossier du jeu (.losthorizon)
-    },
-    
-    // ----------------------------------------------------------------------------------
-    // 2. MODS (Chaque mod doit être listé ici et placé dans le sous-dossier 'files' sur votre FTP)
-    // N'oubliez pas d'inclure les mods 'Core' ou 'API' si nécessaire.
-    // ----------------------------------------------------------------------------------
-    {
-      "name": "files/mon_mod_essentiel_1.21.4.jar",
-      "size": TAILLE_MOD1_EN_OCTETS, 
-      "sha1": "SHA1_DE_MON_MOD_ESSENTIEL", 
-      "action": 0,
-      "path": "mods" // Chemin de destination: .losthorizon/mods/
-    },
-    {
-      "name": "files/autre_mod_1.21.4.jar",
-      "size": TAILLE_MOD2_EN_OCTETS, 
-      "sha1": "SHA1_DE_L_AUTRE_MOD", 
-      "action": 0,
-      "path": "mods"
-    },
-    
-    // ----------------------------------------------------------------------------------
-    // 3. FICHIER DE CONFIGURATION (Si vous avez des configs serveur spécifiques à forcer)
-    // ----------------------------------------------------------------------------------
-    {
-      "name": "files/config/votre_config.toml",
-      "size": TAILLE_CONFIG_EN_OCTETS, 
-      "sha1": "SHA1_DU_FICHIER_CONFIG", 
-      "action": 0,
-      "path": "config" // Chemin de destination: .losthorizon/config/
     }
-    
-    // ----------------------------------------------------------------------------------
-    // AUTRES ACTIONS UTILES : 
-    // - ACTION 1 : Supprimer (Delete) - Utile pour retirer d'anciens mods
-    // - ACTION 2 : Rejeter (Reject) - Laisse le fichier existant si présent
-    // ----------------------------------------------------------------------------------
   ]
 }
