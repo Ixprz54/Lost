@@ -8,10 +8,9 @@
     // ----------------------------------------------------------------------------------
     {
       "name": "files/forge-1.21.4-54.1.0-installer.jar",
-      "size": TAILLE_FORGE_EN_OCTETS,
-      "sha1": "SHA1_DE_L_INSTALLATEUR_FORGE", 
-      "action": 0,
-      "path": "installers" // Un dossier temporaire pour l'installateur
+      "size": 6413997,
+      "sha1": "12CA4988E1C4F3966547A6B1B63850B1293564AE",
+      "action": 0
     },
     
     // ----------------------------------------------------------------------------------
